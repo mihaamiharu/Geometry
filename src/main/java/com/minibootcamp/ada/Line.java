@@ -18,6 +18,6 @@ public class Line {
     }
 
     public boolean equals(Line other) {
-        return this.y2 == other.y2;
+        return this.y1 == other.y1 && this.y2 == other.y2;
     }
 }

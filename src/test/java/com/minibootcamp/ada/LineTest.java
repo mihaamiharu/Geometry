@@ -65,4 +65,12 @@ public class LineTest {
 
         assertFalse(line1.equals(line2));
     }
+
+    @Test
+    public void testEqualsGiven2LinesWithOnlyY1CoordinateIsDifferentExpectReturnFalse() {
+        Line line1 = new Line(0, 0, 1, 1);
+        Line line2 = new Line(0, 2, 1, 1);
+
+        assertFalse(line1.equals(line2));
+    }
 }
