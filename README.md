@@ -17,7 +17,15 @@ Gradle 7.2
   ./gradlew build
 ```
 
-## Run Instruction
-```
-  TBD
+## Use Instruction
+```java
+import com.minibootcamp.ada.Line;
+
+public class YourClass {
+
+    public static void main(String[] args) {
+        Line line = new Line(1, 1, 3, 4); // Initialize the library inside your class
+        line.getLength(); // The function to calculate the length
+    }
+}
 ```
