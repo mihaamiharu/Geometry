@@ -33,4 +33,11 @@ public class LineTest {
 
         assertEquals(3, line.getLength());
     }
+
+    @Test
+    public void testGetLengthGivenVerticalLineWithReversedEndpointsExpectReturnItsLength() {
+        Line line = new Line(3, 5, 3, 1);
+
+        assertEquals(4, line.getLength());
+    }
 }
