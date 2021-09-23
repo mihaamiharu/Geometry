@@ -1,6 +1,7 @@
 # Geometry
 ## Problem description
-Users want to calculate length of line on an XY plane
+- Users want to calculate length of line on an XY plane
+- Users want to compare two lines of equality based on its endpoints so they know when two lines are equal
 
 ## Developement environment setup
 JDK 11
