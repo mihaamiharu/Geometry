@@ -26,4 +26,11 @@ public class LineTest {
 
         assertEquals(2, line.getLength());
     }
+
+    @Test
+    public void testGetLengthGivenVerticalLineExpectReturnItsLength() {
+        Line line = new Line(1, 2, 1, 5);
+
+        assertEquals(3, line.getLength());
+    }
 }
