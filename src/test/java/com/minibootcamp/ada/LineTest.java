@@ -12,4 +12,11 @@ public class LineTest {
 
         assertEquals(0, line.getLength());
     }
+
+    @Test
+    public void testGetLengthGivenHorizontalLineExpectReturnItsLength() {
+        Line line = new Line(0, 5, 1, 5);
+
+        assertEquals(1, line.getLength());
+    }
 }
