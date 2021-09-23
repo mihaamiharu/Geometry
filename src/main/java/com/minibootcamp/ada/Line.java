@@ -1,6 +1,5 @@
 package com.minibootcamp.ada;
 
-
 public class Line {
     private int x1;
     private int y1;
@@ -19,6 +18,6 @@ public class Line {
     }
 
     public boolean equals(Line other) {
-        return true;
+        return this.y2 == other.y2;
     }
 }
