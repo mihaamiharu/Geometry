@@ -40,4 +40,11 @@ public class LineTest {
 
         assertEquals(4, line.getLength());
     }
+
+    @Test
+    public void testGetLengthGivenDiagonalLineExpectReturnItsLength() {
+        Line line = new Line(3, 5, 6, 9);
+
+        assertEquals(5, line.getLength());
+    }
 }
