@@ -19,4 +19,11 @@ public class LineTest {
 
         assertEquals(1, line.getLength());
     }
+
+    @Test
+    public void testGetLengthGivenHorizontalLineWithReversedEndpointsExpectReturnItsLength() {
+        Line line = new Line(3, 0, 1, 0);
+
+        assertEquals(2, line.getLength());
+    }
 }
